@@ -16,9 +16,9 @@
 				<key>foreground</key>
 				<string>#8a8a93</string>
 				<key>gutter</key>
-				<string>#101012</string>
+				<string>#121215</string>
 				<key>gutterForeground</key>
-				<string>#4d4d52</string>
+				<string>#2d2d32</string>
 				<key>inactiveSelection</key>
 				<string>#8da5ba3d</string>
 				<key>invisibles</key>

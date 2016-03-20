@@ -300,7 +300,8 @@
 
     {
         "class": "sidebar_label",
-        "color": [144, 148, 152]
+        "color": [160, 164, 169],
+        "font.size": 11.5
     },
 
     {
@@ -538,13 +539,13 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Freesia/assets/button/back.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [4, 4],
+        "layer0.inner_margin": [6, 6],
         "layer1.texture": "Theme - Freesia/assets/button/fore.png",
         "layer1.tint": [255, 140, 140, 130],
         "layer1.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
-        "layer1.inner_margin": [4, 4],
+        "layer1.inner_margin": [6, 6],
         "tint_index": 0,
-        "content_margin": [3, 3, 3, 3]
+        "content_margin": [6, 6, 6, 6]
     },
 
     {
@@ -681,7 +682,7 @@
         "layer0.opacity": 1.0,
         "layer0.tint": [86, 92, 95],
 
-        "content_margin": [2, 0, 2, 0],
+        "content_margin": [2, -1, 2, 0],
         "tab_overlap": 2,
         "tab_width": 180,
         "tab_min_width": 64,
@@ -701,21 +702,21 @@
 
         "layer0.texture": "Theme - Freesia/assets/tabs/bg.png",
         "layer0.inner_margin": [4, 4],
-        "layer0.opacity": 1.0,
-        "layer0.tint": [86, 92, 95],
+        "layer0.opacity": 0.0,
 
         "layer1.texture": "Theme - Freesia/assets/tabs/fg-inactive.png",
         "layer1.inner_margin": [4, 4],
         "layer1.opacity": 1.0,
-        "layer1.tint": [72, 76, 80],
-
+        "layer1.tint": [67, 75, 77],
+        
         "layer2.texture": "Theme - Freesia/assets/tabs/fg.png",
         "layer2.inner_margin": [4, 4],
-        "layer2.opacity": 0.0,
+        "layer2.opacity": 1.0,
 
         "layer3.texture": "Theme - Freesia/assets/tabs/mark.png",
         "layer3.inner_margin": [4, 4],
         "layer3.opacity": 0.0,
+        "layer3.tint": [220, 220, 220],
 
         "tint_index": 2,
         "tint_modifier": [255, 255, 255, 0],
@@ -736,9 +737,9 @@
         "attributes": ["selected"],
 
         "layer1.opacity": 0.0,
-        "layer2.opacity": 1.0,
+        "layer2.opacity": 0.4,
         "layer3.opacity": 1.0,
-        "layer3.tint": [44, 186, 240],
+        "layer3.tint": [220, 220, 220],
 
         "content_margin": [12, 8, 12, 4],
         "max_margin_trim": 6,
@@ -806,7 +807,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "fg": [255, 198, 230],
+        "fg": [255, 255, 230],
         "settings": ["highlight_modified_tabs"]
     },
 
@@ -814,7 +815,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["file_light", "dirty", "selected"]}],
-        "fg": [140, 66, 96],
+        "fg": [255, 255, 230],
         "shadow_color": [255, 0, 0, 32],
         "shadow_offset": [0, 1],
         "settings": ["highlight_modified_tabs"]
@@ -904,7 +905,7 @@
     {
         "class": "tabset_control",
         "settings": ["freesia_large_tabs"],
-        "tab_height": 38
+        "tab_height": 44
     },
 
     {

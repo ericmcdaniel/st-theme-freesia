@@ -1234,5 +1234,18 @@
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [0, 172, 222]
-    }
+    },
+    /** CUSTOM FONT **/
+        {
+        "class": "sidebar_label",
+        "font.face": "PragmataPro"
+    },
+    {
+        "class": "label_control",
+        "font.face": "PragmataPro"
+    },
+    {
+        "class": "tab_label",
+        "font.face": "PragmataPro"
+    },
 ]
